@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout style="@style/Widget.Qfilm.AuthenticationForm"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tv_forgot_your_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="end"
+
+        android:textAppearance="@style/TextAppearance.Qfilm.link"
+        android:text="@string/tv_forgot_password"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="4dp"
+        app:errorEnabled="true"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/et_email_label"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_et_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        app:endIconMode="password_toggle"
+        app:errorEnabled="true"
+        app:endIconTint="?attr/colorOnSurface"
+        android:hint="@string/et_password_label"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+
+
+        style="@style/Widget.Qfilm.Button"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:id="@+id/btn_sign_in"
+        android:padding="16dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/btn_sign_in" />
+
+    </LinearLayout>
+
+    <View
+    android:id="@+id/divider_line_two"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginStart="@dimen/divider_line_margin_start"
+    android:layout_marginEnd="@dimen/divider_line_margin_end"
+    android:layout_marginBottom="@dimen/divider_line_margin_top"
+    android:layout_marginTop="@dimen/divider_line_margin_bottom"
+    android:layout_gravity="center_horizontal"
+    android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+    style="@style/Widget.Qfilm.AuthenticationForm"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+        >
+
+<TextView
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start"
+
+    android:text="@string/tv_q_no_account_yet"
+
+    android:textAppearance="@style/TextAppearance.Qfilm.Body1"
+    android:textStyle="bold"
+
+    />
+
+<Button
+
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+    android:textAllCaps="false"
+    android:layout_marginStart="24dp"
+    android:layout_marginEnd="24dp"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp"
+    android:id="@+id/btn_create_account"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/btn_create_account" />
+
+</LinearLayout>
+</LinearLayout>

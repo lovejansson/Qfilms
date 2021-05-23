@@ -1,0 +1,118 @@
+{
+  "backdrop_path": "/1qOA3kMtQO8bjnW8M2smjA8tp10.jpg",
+  "created_by": [
+    {
+      "id": 1263628,
+      "credit_id": "5f96f22b194186003626bca2",
+      "name": "Carlos Montero",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1456588,
+      "credit_id": "5ad75bafc3a36847de00de17",
+      "name": "Darío Madrona",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    60
+  ],
+  "first_air_date": "2018-10-05",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80200942",
+  "id": 76669,
+  "in_production": true,
+  "languages": [
+    "es"
+  ],
+  "last_air_date": "2020-03-13",
+  "last_episode_to_air": {
+    "air_date": "2020-03-13",
+    "episode_number": 8,
+    "id": 2177367,
+    "name": "Polo",
+    "overview": "The events that transpired the night of the murder unfold. The police interview several eyewitnesses who are ready to point fingers.",
+    "production_code": "",
+    "season_number": 3,
+    "show_id": 76669,
+    "still_path": "/cdZJRuip7EIJd6FHIgk8ss0AJX9.jpg",
+    "vote_average": 9,
+    "vote_count": 2
+  },
+  "name": "Elite",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "name": "Netflix",
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 24,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "ES"
+  ],
+  "original_language": "es",
+  "original_name": "Élite",
+  "overview": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+  "popularity": 243.254,
+  "poster_path": "/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
+  "production_companies": [
+    {
+      "id": 9967,
+      "logo_path": null,
+      "name": "Zeta Audiovisual",
+      "origin_country": ""
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2018-10-05",
+      "episode_count": 8,
+      "id": 98489,
+      "name": "Season 1",
+      "overview": "When three working-class teens enroll in an exclusive private school in Spain, the clash between them and the wealthy students leads to murder.",
+      "poster_path": "/DFa0pWvZfP4lGdY9vS3pkmHuWc.jpg",
+      "season_number": 1
+    },
+    {
+      "air_date": "2019-09-06",
+      "episode_count": 8,
+      "id": 129087,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/yYDMDO2OxdoPZSNNLYZpWqIQ7cb.jpg",
+      "season_number": 2
+    },
+    {
+      "air_date": "2020-03-13",
+      "episode_count": 8,
+      "id": 143700,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
+      "season_number": 3
+    }
+  ],
+  "status": "Returning Series",
+  "type": "Scripted",
+  "vote_average": 8.3,
+  "vote_count": 5150
+}

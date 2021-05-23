@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#292E6A</color>
+    <color name="colorPrimaryDark"> #19225B</color>
+    <color name="colorAccent">#644CFB</color>
+
+    <color name="colorBackground"> #ffffff</color>
+    <color name="colorOnBackground"> #000000</color>
+
+    <color name="colorSurface">@color/colorBackground</color>
+    <color name="colorOnSurface"> #BB000000</color>
+
+    <color name="colorOnPrimary">#d3d6ed</color>
+
+    <color name="colorHint"> #70000000</color>
+
+    <color name="colorStatusBar">#e9e8ed</color>
+
+    <color name="colorSnackBarBackground">#14141c</color>
+    <color name="colorSnackBarText"> #A0ffffff</color>
+
+    <color name="colorPrimaryLight">#d2cbf7</color>
+
+    <color name="colorBottomNavItemActive"> @color/colorPrimary</color>
+    <color name="colorPrimaryDarkTheme">#3d449c</color>
+
+    <color name="colorPrimaryLightDarkTheme">#d2cbf7</color>
+    <color name="colorOnPrimaryDarkTheme">#b8b8e6</color>
+
+    <color name="colorAccentDarkTheme">#6C56FB</color>
+
+    <color name="colorOnSecondaryDarkTheme">#99ffffff</color>
+
+
+    <color name="colorSurfaceDarkTheme"> #14141c</color>
+    <color name="colorOnSurfaceDarkTheme"> #c0c0c2</color>
+    <color name="colorHintDarkTheme"> #60ffffff</color>
+
+    <color name="dividerColor">#33000000</color>
+    <color name="dividerColorDarkTheme">#33ffffff</color>
+
+
+    <color name="backgroundThirdPartySignInButtonDarkTheme">#27272B</color>
+    <color name="textThirdPartySignInButtonDarkTheme"> @color/colorOnSurface</color>
+
+    <color name="colorBackgroundDarkTheme"> #14141c</color>
+    <color name="colorOnBackgroundDarkTheme"> #ffffff</color>
+
+    <color name="colorStatusBarDarkTheme">#000000</color>
+
+    <color name="colorSnackBarBackgroundDarkTheme">#ffffff</color>
+
+    <color name="colorSnackBarTextDarkTheme">#000000</color>
+
+    <color name="colorBottomNavItemActiveDarkTheme"> #ffffff</color>
+
+
+</resources>

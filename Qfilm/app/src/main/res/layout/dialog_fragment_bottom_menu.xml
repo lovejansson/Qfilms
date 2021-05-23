@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_bottom_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/colorSecondary">
+
+
+    <TextView
+        android:id="@+id/tv_btn_delete_collection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_outer_small"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="@dimen/margin_outer_small"
+
+        android:gravity="start|center_vertical"
+
+        app:drawableStartCompat="@drawable/ic_delete"
+        app:drawableTint="?attr/colorOnSurface"
+        android:drawablePadding="32dp"
+
+        android:text="@string/menu_delete_collection"
+        android:textAppearance="@style/TextAppearance.Qfilm.bottomMenu"
+
+ />
+
+    <TextView
+        android:id="@+id/tv_btn_edit_collection_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_outer_small"
+        android:drawablePadding="32dp"
+        app:drawableStartCompat="@drawable/ic_edit"
+        android:layout_marginBottom="24dp"
+        android:gravity="start|center_vertical"
+        app:drawableTint="?attr/colorOnSurface"
+        android:text="@string/menu_edit_collection_name"
+        android:textAppearance="@style/TextAppearance.Qfilm.bottomMenu"
+        />
+</LinearLayout>

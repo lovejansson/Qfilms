@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.SignInFragment"
+    android:id="@+id/fragment_sign_in"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="parent">
+
+    <ImageButton
+        android:id="@+id/btn_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleType="fitXY"
+        android:backgroundTint="@android:color/transparent"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/navigation_icon_margin_top"
+        android:layout_marginEnd="@dimen/navigation_icon_margin_end"
+        android:layout_gravity="end"
+
+        android:src="@drawable/ic_settings"
+
+        android:contentDescription="@string/descr_navigate_settings" />
+
+    <TextView
+        android:id="@+id/tv_heading_sign_in"
+        style="@style/TextAppearance.Qfilm.Headline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="@dimen/margin_outer_big"
+        android:layout_marginEnd="@dimen/margin_outer_big"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center"
+        android:textAppearance="?attr/textAppearanceHeadline1"
+        android:text="@string/tv_heading_sign_in"
+       />
+
+
+    <LinearLayout
+        style="@style/Widget.Qfilm.AuthenticationForm"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/margin_outer_big"
+        android:layout_marginEnd="@dimen/margin_outer_big"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            style="?attr/buttonStyle"
+            android:id="@+id/btn_sign_in_email"
+            android:padding="16dp"
+
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_sign_in_email" />
+
+        <Button
+            style="?attr/buttonStyle"
+            app:backgroundTint="?attr/colorSecondary"
+            android:textColor="?attr/colorOnSurface"
+            app:icon="@drawable/icon_google"
+            app:iconTint="@null"
+            app:iconSize="24dp"
+
+            android:padding="16dp"
+            app:iconGravity="start"
+
+            android:text="@string/btn_sign_in_google"
+            android:id="@+id/btn_sign_in_google"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="8dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/btn_sign_in_facebook_original"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+            <Button
+                style="?attr/buttonStyle"
+                app:backgroundTint="?attr/colorSecondary"
+                android:textColor="?attr/colorOnSurface"
+                app:icon="@drawable/icon_fb"
+                app:iconTint="@null"
+                app:iconSize="24dp"
+
+                android:padding="16dp"
+
+
+
+                android:text="@string/btn_sign_in_facebook"
+
+                android:id="@+id/btn_sign_in_facebook"
+
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>time_limit_result</key>
+        <value><integer>60 * 60 * 24 * 2</integer></value>
+    </entry>
+    <entry>
+        <key>time_limit_details</key>
+        <value><integer>60 * 60 * 24 * 7</integer></value>
+    </entry>
+    <entry>
+        <key>time_limit_genre</key>
+        <value><integer>60 * 60 * 24 * 100</integer></value>
+    </entry>
+
+    <entry>
+        <key>base_url_tmdb</key>
+            <value><string>https://api.themoviedb.org/3/</string></value>
+
+    </entry>
+
+    <entry>
+        <key>genres_to_exclude</key>
+        <value><array>
+            <string>Kids</string>
+            <string>Family</string>
+            <string>Mystery</string>
+            <string>News</string>
+            <string>Soap</string>
+            <string>Talk</string>
+            <string>TV movie</string>
+            <string>War</string>
+            <string>Western</string>
+            <string>War &amp; Politics</string>
+
+        </array></value>
+    </entry>
+</defaultsMap>

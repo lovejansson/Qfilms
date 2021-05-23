@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navigation_icon_margin_top">48dp</dimen>
+    <dimen name="navigation_icon_margin_end">40dp</dimen>
+    <dimen name="navigation_icon_margin_start">40dp</dimen>
+    <dimen name="divider_line_margin_top">40dp</dimen>
+    <dimen name="divider_line_margin_bottom">40dp</dimen>
+    <dimen name="divider_line_margin_start">48dp</dimen>
+    <dimen name="divider_line_margin_end">48dp</dimen>
+
+    <dimen name="margin_outer_small">24dp</dimen>
+    <dimen name="margin_outer_big">32dp</dimen>
+    <dimen name="margin_headline_bottom">32dp</dimen>
+
+    <dimen name="font_size_headline1">36sp</dimen>
+    <dimen name="font_size_headline2">24sp</dimen>
+    <dimen name="font_size_headline3">20sp</dimen>
+    <dimen name="font_size_body1">18sp</dimen>
+    <dimen name="font_size_body2">16sp</dimen>
+    <dimen name="font_size_button">20sp</dimen>
+
+
+    <dimen name="poster_width">120dp</dimen>
+    <dimen name="poster_height">180dp</dimen>
+
+</resources>

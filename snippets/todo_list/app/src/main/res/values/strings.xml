@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">todo_list</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="new_todo_hint">I have to..</string>
+    <string name="new_todo_button">Add</string>
+    <string name="delete_todo_button">delete todo</string>
+    <string name="new_todo_error_message">A todo cannot be empty</string>
+    <string name="add_todo_button_descr">add todo</string>
+    <string name="add_todo_hint">I have to ..</string>
+    <string name="button_add_todo">Add</string>
+    <string name="add_todo_error_msg">this field cannot be empty</string>
+</resources>

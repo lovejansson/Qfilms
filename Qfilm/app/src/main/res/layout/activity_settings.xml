@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="user"
+            type="com.google.firebase.auth.FirebaseUser" />
+        <variable
+            name="language"
+            type="java.lang.String" />
+    </data>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_settings"
+            android:orientation="vertical"
+
+            >
+
+            <ImageButton
+
+                android:id="@+id/btn_navigate_back"
+                android:background="@android:color/transparent"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:scaleType="fitXY"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginTop="@dimen/margin_outer_big"
+                android:src="@drawable/ic_arrow_back"
+                android:contentDescription="@string/descr_close_settings"/>
+
+
+            <TextView
+                android:id="@+id/tv_headline_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginTop="@dimen/margin_outer_big"
+                android:layout_marginBottom="@dimen/margin_headline_bottom"
+                android:text="@string/tv_headline_settings"
+                android:textAppearance="@style/TextAppearance.Qfilm.Headline1"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginBottom="@dimen/margin_outer_small"
+                android:textAppearance="@style/TextAppearance.Qfilm.label"
+                android:text="@string/tv_heading_display"/>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_original_titles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginEnd="@dimen/margin_outer_big"
+
+                android:text="@string/switch_original_titles"
+
+                android:textAppearance="@style/TextAppearance.Qfilm.Body2"
+                android:textColor="?attr/colorOnSurface"/>
+
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_dark_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/margin_outer_big"
+
+                android:layout_marginEnd="@dimen/margin_outer_big"
+
+                android:text="@string/switch_dark_mode"
+
+                android:textAppearance="@style/TextAppearance.Qfilm.Body2"
+                android:textColor="?attr/colorOnSurface"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginEnd="@dimen/margin_outer_big"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_label_language"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.Qfilm.Body2"
+                    android:text="@string/tv_label_language"
+                   />
+
+
+                <Spinner
+                    android:id="@+id/spinner_languages"
+                    android:gravity="center_vertical"
+                    android:backgroundTint="?attr/colorOnBackground"
+                    android:layout_gravity="end"
+                    android:popupBackground="?attr/colorSecondary"
+                    android:textAppearance="@style/TextAppearance.Qfilm.Body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:visibility="@{user != null ? View.VISIBLE : View.GONE}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginBottom="0dp"
+                android:textAppearance="@style/TextAppearance.Qfilm.label"
+                android:text="@string/tv_heading_account"/>
+
+
+
+            <LinearLayout
+                android:id = "@+id/ll_change_username"
+                android:visibility="@{user != null ? View.VISIBLE : View.GONE}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_outer_big"
+                android:layout_marginEnd="@dimen/margin_outer_big"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:baselineAligned="false">
+
+                <ViewSwitcher
+                    android:id="@+id/vs_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inAnimation="@android:anim/fade_in"
+                    android:outAnimation="@anim/fade_out"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/tv_label_username"
+                            android:textAppearance="@style/TextAppearance.Qfilm.Body2"
+                            android:text="@string/tv_label_username"
+                            android:gravity="center_vertical"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                        <TextView
+                            android:id="@+id/tv_display_name"
+                            android:textAppearance="?attr/textAppearanceBody1"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="24dp"
+                            android:layout_marginEnd="24dp"
+
+                            android:text="@{user.displayName}"/>
+                    </LinearLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layout_et_username"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="@dimen/margin_outer_big"
+
+                        app:errorEnabled="true"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:hint="@string/et_hint_new_username"
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </ViewSwitcher>
+
+                <ViewSwitcher
+                    android:id="@+id/vs_edit_icons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inAnimation="@android:anim/fade_in"
+                    android:outAnimation="@anim/fade_out"
+                    android:layout_weight="1"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/iv_edit_username"
+                        android:layout_height="@dimen/icon_size"
+                        android:layout_width="@dimen/icon_size"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="end|center_vertical"
+                        android:src="@drawable/ic_edit"
+                        android:contentDescription="@string/button_edit_username" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="end|center_vertical"
+                        android:gravity="end">
+
+                        <ImageButton
+                            android:id="@+id/iv_edit_username_save"
+                            android:layout_height="36dp"
+                            android:layout_width="36dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:layout_marginEnd="4dp"
+                            android:src="@drawable/ic_edit_save"
+                            android:contentDescription="@string/button_save"/>
+
+                        <ImageButton
+                            android:id="@+id/iv_edit_username_exit"
+                            android:layout_height="36dp"
+                            android:layout_width="36dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_close_color_on_surface"
+                            android:contentDescription="@string/button_close_edit_username"/>
+
+                    </LinearLayout>
+
+
+                </ViewSwitcher>
+
+            </LinearLayout>
+
+            <Button
+                android:visibility="@{user != null ? View.VISIBLE : View.GONE}"
+                android:id="@+id/btn_sign_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_sign_out"
+                />
+        </LinearLayout>
+</layout>

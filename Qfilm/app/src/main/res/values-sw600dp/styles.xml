@@ -1,0 +1,253 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Qfilm.AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimaryDarkTheme</item>
+        <item name="colorPrimaryVariant">#5454c6</item>
+        <item name="colorPrimaryDark">#24246d</item>
+        <item name="colorOnPrimary">@color/colorOnPrimaryDarkTheme</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorSurface">@color/colorSurfaceDarkTheme</item>
+        <item name="colorOnSurface">@color/colorOnSurfaceDarkTheme</item>
+        <item name="dividerVertical">@color/dividerColorDarkTheme</item>
+
+        <item name="tabIndicatorColor">#5454c6</item>
+
+        <item name="colorSecondary">#2e2e3b</item>
+        <item name="colorOnSecondary">#5b5b69</item>
+
+        <item name="android:textColorPrimary">@color/colorOnSurfaceDarkTheme</item>
+
+        <item name="android:windowBackground">#14141c</item>
+
+        <item name="background">@color/colorBackgroundDarkTheme</item>
+
+        <item name="colorOnBackground">@color/colorOnBackgroundDarkTheme</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="android:statusBarColor">@color/colorStatusBarDarkTheme</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="textAppearanceHeadline1"> @style/TextAppearance.Qfilm.Headline1</item>
+        <item name="textAppearanceHeadline2"> @style/TextAppearance.Qfilm.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Qfilm.Headline3</item>
+
+        <item name="textAppearanceBody1"> @style/TextAppearance.Qfilm.Body1</item>
+        <item name="textAppearanceBody2"> @style/TextAppearance.Qfilm.Body2</item>
+        <item name="textAppearanceSubtitle1"> @style/TextAppearance.Qfilm.label</item>
+
+
+        <item name="tabStyle">@style/Widget.Qfilm.TabLayout</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.Qfilm.BottomNavigationViewDarkTheme</item>
+
+        <item name="buttonStyle">@style/Widget.Qfilm.Button</item>
+
+    </style>
+
+
+    <style name="Theme.Qfilm.AppTheme.Light" parent="Theme.Qfilm.AppTheme.Dark">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorOnSecondary">#5459a1</item>
+
+        <item name="dividerVertical">@color/dividerColor</item>
+
+        <item name="background">@color/colorBackground</item>
+
+        <item name="android:textColorPrimary">@color/colorOnSurface</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+
+        <item name="android:windowBackground">#ffffff</item>
+
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.Qfilm.BottomNavigationView</item>
+    </style>
+
+
+
+    <style name="Window.DialogAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_out</item>
+    </style>
+
+
+    <style name="Window.DialogAnimationFade" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+
+    <style name="Widget.Qfilm.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Qfilm.BottomNavigationView</item>
+    </style>
+
+
+    <style name="ThemeOverlay.Qfilm.BottomNavigationView" parent="">
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorSurface">@color/colorPrimary</item>
+        <item name="colorOnSurface">?attr/colorOnPrimary</item>
+    </style>
+
+
+    <style name="Widget.Qfilm.BottomNavigationViewDarkTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Qfilm.BottomNavigationViewDarkTheme</item>
+        <item name ="android:colorBackground">?attr/colorSurface</item>
+    </style>
+
+
+    <style name="ThemeOverlay.Qfilm.BottomNavigationViewDarkTheme" parent="">
+        <item name="colorPrimary">@color/colorBottomNavItemActiveDarkTheme</item>
+        <item name="colorSurface">?attr/colorSecondary</item>
+    </style>
+
+
+    <style name="Widget.Qfilm.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabTextAppearance">@style/TextAppearance.Qfilm.Tab</item>
+    </style>
+
+    <!-- TextAppearances -->
+
+    <style name="TextAppearance.Qfilm.Tab" parent="">
+        <item name="android:textSize">@dimen/font_size_body1</item>
+        <item name="fontFamily">@font/hind</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/palanquin_dark</item>
+        <item name="android:textSize">@dimen/font_size_headline1</item>
+        <item name="lineHeight">36sp</item>
+        <item name ="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Headline2" parent="TextAppearance.Qfilm.Headline1">
+        <item name="android:textSize">@dimen/font_size_headline2</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Headline3" parent="TextAppearance.Qfilm.Headline1">
+        <item name="android:textSize">@dimen/font_size_headline3</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.GenreListItem" parent="TextAppearance.Qfilm.Headline1">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/hind</item>
+        <item name="android:textSize">@dimen/font_size_body1</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Body2" parent="TextAppearance.Qfilm.Body1">
+        <item name="android:textSize">@dimen/font_size_body2</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.Button" parent="TextAppearance.Qfilm.Body1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.label" parent="TextAppearance.Qfilm.Body1">
+        <item name="android:textColor"> ?attr/colorOnBackground</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.bottomMenu" parent="TextAppearance.Qfilm.Body1">
+        <item name="android:textColor"> ?attr/colorOnSurface</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.DialogHeading" parent="TextAppearance.Qfilm.Headline2">
+        <item name="android:textColor"> #ffffff </item>
+    </style>
+
+    <!-- Buttons -->
+
+    <style name="Widget.Qfilm.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+
+        <item name="textAllCaps"> false </item>
+        <item name="android:textColor">  #ffffff </item>
+        <item name="android:textAppearance">@style/TextAppearance.Qfilm.bottomMenu</item>
+
+    </style>
+
+    <style name="Widget.Qfilm.Button" parent="Widget.MaterialComponents.Button">
+
+        <item name="textAllCaps"> false </item>
+        <item name="android:textColor">  #ffffff </item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+
+    </style>
+
+
+    <style name="Widget.Qfilm.Button.ButtonDark" parent="Widget.Qfilm.Button">
+        <item name="backgroundTint"> @color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="Widget.Qfilm.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="textAllCaps"> false </item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+
+    </style>
+
+    <style name="Widget.Qfilm.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_layout_selector</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="hintTextColor">#ffffff</item>
+        <item name="android:textColorHint">?attr/colorOnSecondary</item>
+    </style>
+
+
+    <style name="TextAppearance.Qfilm.link" parent="TextAppearance.Qfilm.label">
+        <item name="android:textColor"> ?attr/colorPrimary</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_out</item>
+    </style>
+
+
+    <style name="Widget.Qfilm.AuthenticationForm" parent="">
+        <item name="android:layout_width">375dp</item>
+    </style>
+
+
+    <string-array name="app_languages">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+
+</resources>

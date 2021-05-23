@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="percentage_of_parent" type="integer">100</item>
+
+</resources>

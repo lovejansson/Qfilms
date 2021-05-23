@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Qfilm</string>
+
+    <!-- facebook authentication -->
+
+    <string name="fb_login_protocol_scheme">fb287615376004714</string>
+    <string name="facebook_app_id">287615376004714</string>
+
+    <!-- common texts -->
+
+    <string name="back_navigation">back navigation</string>
+    <string name="description_button_navigate_back">button navigate back</string>
+    <string name="descr_navigate_settings">navigate to settings</string>
+
+    <!-- bottom nav  -->
+
+    <string name="bottom_nav_item_home">Home</string>
+    <string name="bottom_nav_item_profile">You</string>
+    <string name="bottom_nav_item_search">Search</string>
+
+
+    <!-- SettingsActivity -->
+
+    <string name="tv_headline_settings">Settings</string>
+    <string name="descr_close_settings">Close settings</string>
+    <string name="tv_heading_display">Display</string>
+    <string name="switch_original_titles">Show original titles</string>
+    <string name="switch_dark_mode">Dark mode</string>
+    <string name="tv_label_language">Language</string>
+    <string name="tv_heading_account">Account</string>
+    <string name="tv_label_username">Username</string>
+    <string name="button_edit_username">Edit username</string>
+    <string name="button_save">Save</string>
+    <string name="button_close_edit_username">Close edit username</string>
+    <string name="btn_sign_out">Sign out</string>
+
+
+    <!-- HomeFragment -->
+
+    <string name="tab_movies">Movies</string>
+    <string name="tab_series">Series</string>
+
+
+    <!-- DetailPageFragment -->
+
+    <string name="watch_trailer">Watch trailer</string>
+    <string name="description_button_add_to_a_new_collection">Button add to a new collection</string>
+    <string name="tv_label_release_year">Year</string>
+    <string name="tv_label_runtime">Runtime</string>
+    <string name="tv_label_genres">Genres</string>
+    <string name="btn_add_to">Add to</string>
+    <string name="tv_overview_headline">Overview</string>
+    <string name="tv_images_headline">Images</string>
+    <string name="tv_posters_headline">Posters</string>
+
+    <string name="close_detail_page">close detail page</string>
+
+    <string name="detail_movie_image_descr">Movie image</string>
+
+    <string name="overview_not_available">Overview not available yet</string>
+
+   <!-- ListingFragment -->
+
+    <string name="all_genres">All genres</string>
+
+    <!-- DialogFragmentAddToCollection -->
+    <string name="descr_close_add_to_collection_dialog">Close add to collection dialog</string>
+    <string name="tv_heading_add_to_collection">Add to collection</string>
+    <string name="add_to_collection_not_logged_in">You have to be signed in to add to a collection</string>
+
+    <!-- DialogFragmentBottomMenu -->
+    <string name="menu_edit_collection_name">Edit name</string>
+    <string name="menu_delete_collection">Delete collection</string>
+
+
+    <!-- DialogFragmentGenres -->
+    <string name="descr_close_genres_dialog">Close genres dialog</string>
+
+    <!-- DialogFragmentSimple -->
+
+    <string name="dialog_message_delete_collection">Delete collection?</string>
+    <string name="dialog_message_delete_from_collection">Delete  %1$s  from this collection?</string>
+
+    <!-- Common Dialog fragments -->
+
+    <string name="dialog_heading_edit_collection_name">Edit collection name</string>
+    <string name="dialog_heading_create_new_collection">Create new collection</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">Ok</string>
+
+    <string name="dialog_fragment_simple_delete_collection">Delete collection?</string>
+    <string name="dialog_fragment_edit_collection_name">Edit collection name</string>
+    <string name="dialog_fragment_new_collection">New collection</string>
+
+
+    <!-- Authentication  -->
+
+    <string name="tv_heading_sign_in">Sign In</string>
+    <string name="tv_heading_create_account">Create Account</string>
+    <string name="tv_label_name">Name</string>
+    <string name="tv_label_email">Email</string>
+    <string name="tv_label_password">Password</string>
+    <string name="tv_hint_password">Password have to be at least 6 characters</string>
+
+    <string name="input_required_field">Required field</string>
+    <string name="input_password_length_requirement"> Password must be at least 6 characters</string>
+    <string name="input_invalid_email_format"> Invalid email format</string>
+    <string name="account_with_email_already_exist"> Email address is already in use by another account </string>
+    <string name="email_verification_sent"> A verification email has been sent.</string>
+
+    <string name="email_address_not_verified"> Email address has not been verified </string>
+    <string name="snackBar_action_resend">Resend</string>
+    <string name="input_wrong_password">Wrong password</string>
+    <string name="input_user_no_exist">No user exists with this email address</string>
+    <string name="login_fb_failed">Failed to sign in with facebook, please try again</string>
+
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="tv_q_no_account_yet">Don\'t have an account yet?</string>
+    <string name="et_password_label">Password</string>
+    <string name="et_email_label">Email</string>
+    <string name="et_username_label">Name</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+
+    <string name="et_hint_new_username">Username</string>
+
+    <string name="tv_forgot_password">Forgot your password?</string>
+    <string name="iv_desc_exit_reset_password_fragment">Exit reset password</string>
+    <string name="iv_desc_exit_sign_in_email_fragment">Exit sign in with email</string>
+    <string name="btn_sign_in_email">Sign in with email</string>
+    <string name="btn_sign_in_google">Sign in with Google</string>
+    <string name="btn_sign_in_facebook">Sign in with Facebook</string>
+    <string name="tv_headline_reset_password">Reset password</string>
+    <string name="btn_send_reset_password_email">Send</string>
+    <string name="snackbar_unknown_error">An error occurred, please try again later</string>
+    <string name="snackbar_offline">You are offline, connect to internet and try again</string>
+    <string name="btn_sign_in">Sign in</string>
+
+    <string name="snackbar_reset_password_email">"A reset password email has been sent "</string>
+
+    <string name="close_create_account">close create account</string>
+
+    <string name="close_reset_password">close reset password</string>
+
+    <string name="sign_in_failed">Sign in failed, please try again</string>
+
+
+    <!-- Profile fragment -->
+
+    <string name="description_button_create_new_collection">Button create new collection</string>
+    <string name="hint_collection_name">Collection name</string>
+    <string name="description_button_settings">Button settings</string>
+    <string name="btn_new_collection">New collection</string>
+    <string name="movies_and_series"> %1$d movies &amp; series</string>
+
+    <!-- CollectionsFragment  -->
+
+    <string name="tv_no_collections_yet">No collections yet!</string>
+    <string name="tv_heading_no_saved_collections">No collections yet</string>
+    <string name="tv_no_saved_collections">Save your favourite movies and series in different collections</string>
+
+
+    <!-- FireStore edits  -->
+
+    <string name="create_empty_collection_failed">Failed to create %1$s</string>
+    <string name="update_collection_name_failed">Failed to update collection name</string>
+    <string name="delete_collection_failed">Failed to delete %1$s</string>
+    <string name="add_item_to_collection_failed">Failed to add %1$s to %2$s</string>
+    <string name="new_collection_with_item_failed">Created %1$1 but failed to add %2$s</string>
+    <string name="add_item_to_collection_success">Added %1$s to %2$s</string>
+    <string name="delete_item_in_collection_failed">Failed to delete %1$s</string>
+    <string name="item_already_added">%1$s already added to %2$s</string>
+
+    <!-- Common error layout -->
+
+    <string name="error_no_network_headline">You are offline</string>
+    <string name="error_no_network_message">You have to be connected to internet to browse LGBTQ movies &amp; series</string>
+    <string name="error_unknown_heading">Unknown network error occurred"</string>
+    <string name="error_unknown_message">We are very sorry about this, please try again</string>
+    <string name="btn_try_again">Try again</string>
+
+    <!-- CollectionFragment  -->
+
+    <string name="tv_heading_empty_collection">Empty collection</string>
+    <string name="tv_empty_collection">Add movies &amp; series by visiting their detail page</string>
+
+
+    <!-- Search fragment  -->
+    <string name="et_hint_search">By title</string>
+    <string name="btn_search">Search</string>
+    <string name="tv_heading_search">Search</string>
+    <string name="failed_sign_in_google">Failed to sign in via Google</string>
+
+
+    <string-array name="app_languages">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+
+</resources>

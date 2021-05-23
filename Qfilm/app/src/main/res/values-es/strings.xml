@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fb_login_protocol_scheme">fb287615376004714</string>
+    <string name="facebook_app_id">287615376004714</string>
+
+    <string name="app_name">Qfilm</string>
+    <string name="error_unknown_message">Lo sentimos mucho, inténtelo de nuevo</string>
+    <string name="error_unknown_heading">Ocurrió un error de red desconocido</string>
+    <string name="error_no_network_message">Tienes que estar conectado a Internet para navegar por películas y series LGBTQ</string>
+    <string name="error_no_network_headline">Estas desconectado</string>
+    <string name="add_to_collection_not_logged_in">Debes iniciar sesión para agregar a una colección</string>
+    <string name="btn_new_collection">Nueva colección</string>
+    <string name="tv_heading_add_to_collection">Agregar a una colección</string>
+    <string name="delete_item_in_collection_failed">No se pudo borrar %1$s</string>
+    <string name="add_item_to_collection_failed">" No se pudo agregar %1$s a %2$s"</string>
+    <string name="add_item_to_collection_success">" Se agregó %1$s a %2$s"</string>
+    <string name="new_collection_with_item_failed">" Se creó %1$1 pero no se pudo agregar %2$s"</string>
+    <string name="delete_collection_failed">No se pudo borrar %1$s</string>
+    <string name="update_collection_name_failed">No se pudo cambiar el nombre de la colección</string>
+    <string name="create_empty_collection_failed">Error al crear %1$s</string>
+    <string name="dialog_fragment_edit_collection_name">Editar el nombre de la colección</string>
+    <string name="dialog_fragment_simple_delete_collection">¿Eliminar colección?</string>
+    <string name="login_fb_failed">" No se pudo iniciar sesión con Facebook. Vuelva a intentarlo."</string>
+    <string name="tv_heading_no_saved_collections">Aún no hay colecciones</string>
+    <string name="tv_no_saved_collections">Guarde sus películas y series favoritas en diferentes colecciones</string>
+    <string name="tv_no_collections_yet">Aún no hay colecciones</string>
+    <string name="btn_ok">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="dialog_heading_create_new_collection">Crear nueva colección</string>
+    <string name="dialog_heading_edit_collection_name">Editar el nombre de la colección</string>
+
+    <string name="dialog_message_delete_collection">¿Eliminar colección?</string>
+    <string name="movies_and_series">%1$d  películas y series</string>
+    <string name="description_button_settings">Configuración de botones</string>
+    <string name="menu_edit_collection_name">Editar nombre</string>
+    <string name="menu_delete_collection">Eliminar colección</string>
+    <string name="hint_collection_name">Nombre de la colección</string>
+    <string name="description_button_create_new_collection">Botón crear nueva colección</string>
+    <string name="tv_label_username">Nombre de usuario</string>
+    <string name="tv_heading_account">Cuenta</string>
+    <string name="switch_dark_mode">Modo oscuro</string>
+    <string name="switch_original_titles">Mostrar títulos originales</string>
+    <string name="tv_headline_settings">Configuraciones</string>
+    <string name="description_button_navigate_back">Botón navegar hacia atrás</string>
+    <string name="sign_in_failed">El inicio de sesión falló. Por favor intenta de nuevo</string>
+    <string name="btn_sign_out">Salir</string>
+    <string name="tv_heading_display">Mostrar</string>
+    <string name="btn_sign_in">Inciar sesión</string>
+    <string name="snackbar_offline">Estás sin conexión, conéctate a Internet y vuelve a intentarlo</string>
+    <string name="snackbar_unknown_error">Se produjo un error, inténtelo de nuevo</string>
+    <string name="snackbar_reset_password_email">Se ha enviado un email  para restablecer su contraseña.</string>
+    <string name="btn_send_reset_password_email">Enviar</string>
+    <string name="tv_headline_reset_password">Restablecer la contraseña</string>
+    <string name="btn_sign_in_facebook">Iniciar sesión usando Facebook</string>
+    <string name="btn_sign_in_google">Iniciar sesión usando Google</string>
+    <string name="btn_sign_in_email">Iniciar sesión con email</string>
+    <string name="iv_desc_exit_sign_in_email_fragment">Salir iniciar sesión con email</string>
+    <string name="iv_desc_exit_reset_password_fragment">Salir restablecer la contraseña</string>
+    <string name="tv_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="et_hint_new_username">Nombre de usuario</string>
+    <string name="sign_in_with_email">Iniciar sesión con email</string>
+    <string name="et_username_label">Nombre</string>
+    <string name="et_email_label">Email</string>
+    <string name="et_password_label">Contraseña</string>
+    <string name="tv_q_no_account_yet">¿Aún no tienes una cuenta?</string>
+    <string name="btn_create_account">Crear una cuenta</string>
+    <string name="btn_sign_up">Regístrate</string>
+    <string name="input_user_no_exist">" No existe ningún usuario con esta email"</string>
+    <string name="input_wrong_password">Contraseña incorrecta</string>
+    <string name="snackBar_action_resend">Reenviar</string>
+    <string name="email_address_not_verified">" La dirección de correo electrónico no ha sido verificada"</string>
+    <string name="email_verification_sent">" Se ha enviado un correo electrónico de verificación."</string>
+    <string name="account_with_email_already_exist">La dirección de correo electrónico ya está siendo utilizada por otra cuenta</string>
+    <string name="input_invalid_email_format">Formato de correo inválido</string>
+    <string name="input_password_length_requirement">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="input_required_field">"Campo obligatorio "</string>
+    <string name="tv_hint_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="tv_label_password">Contraseña</string>
+    <string name="tv_label_email">Email</string>
+    <string name="tv_label_name">Nombre</string>
+    <string name="tv_heading_create_account">Crear una cuenta</string>
+    <string name="tv_heading_sign_in">" Inicia sesión"</string>
+    <string name="tv_images_headline">" Imagenes"</string>
+    <string name="tv_posters_headline">"Carteles "</string>
+    <string name="tv_overview_headline">Visión general</string>
+    <string name="btn_add_to">" Añadir a"</string>
+    <string name="tv_label_genres">Géneros</string>
+    <string name="tv_label_runtime">Tiempo de ejecución</string>
+    <string name="tv_label_release_year">Año</string>
+    <string name="description_button_add_to_a_new_collection">Botón agregar a una nueva colección</string>
+    <string name="watch_trailer">Ver el trailer</string>
+    <string name="all_genres">Todos los generos</string>
+    <string name="tab_series">Series</string>
+    <string name="tab_movies">Películas</string>
+    <string name="close_detail_page">Salir de la página de detalles</string>
+    <string name="back_navigation">" navegación hacia atrás"</string>
+    <string name="bottom_nav_item_profile">Tú</string>
+    <string name="bottom_nav_item_home">Inicio</string>
+    <string name="detail_movie_image_descr">Imagen de película</string>
+
+
+    <string name="close_create_account">cerrar crear cuenta</string>
+    <string name="tv_empty_collection">Agrega películas y series visitando su página de detalles</string>
+    <string name="close_reset_password">" cerrar restablecer contraseña"</string>
+    <string name="tv_heading_empty_collection">Colección vacía</string>
+    <string name="btn_try_again">Inténtalo de nuevo</string>
+
+    <string name="bottom_nav_item_search">Buscar</string>
+
+    <string name="overview_not_available">Descripción general aún no disponible</string>
+
+    <string name="item_already_added">%1$s ya está agregado a la %2$s</string>
+    <string name="descr_close_settings">Cerrar configuración</string>
+    <string name="tv_label_language">" Idioma"</string>
+    <string name="button_edit_username">" Editar nombre de usuario"</string>
+    <string name="button_save">Guardar</string>
+    <string name="button_close_edit_username">" Cerrar editar nombre de usuario"</string>
+    <string name="descr_close_add_to_collection_dialog">Cerrar cuadro de diálogo agregar a la colección</string>
+    <string name="descr_close_genres_dialog">Cerrar cuadro de diálogo de géneros</string>
+    <string name="dialog_message_delete_from_collection">¿Eliminar %1$s de esta colección?</string>
+    <string name="tv_heading_search">Buscar</string>
+    <string name="btn_search">Por titulo</string>
+    <string name="et_hint_search">Por titulo</string>
+    <string name="dialog_fragment_new_collection">Nueva colección</string>
+
+    <string-array name="app_languages">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+    <string name="failed_sign_in_google">No se pudo iniciar sesión con Google. Vuelva a intentarlo.</string>
+    <string name="descr_navigate_settings">navegar a la configuración</string>
+
+</resources>

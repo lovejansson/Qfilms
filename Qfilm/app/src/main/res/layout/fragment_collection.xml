@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View"/>
+        <variable
+            name="collectionName"
+            type="java.lang.String"/>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/fragment_collection">
+
+
+    <ImageButton
+        android:id="@+id/arrow_back"
+        android:background="@android:color/transparent"
+
+        android:layout_width="0dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="@dimen/margin_outer_small"
+        android:layout_marginTop="@dimen/margin_outer_small"
+
+        android:contentDescription="@string/description_button_navigate_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:id="@+id/tv_heading_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{collectionName}"
+
+            android:layout_marginBottom="24dp"
+            android:textAppearance="?attr/textAppearanceHeadline1"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toEndOf="@id/arrow_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        <include
+            android:id="@+id/error_message"
+            layout="@layout/error_layout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_heading_collection"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/ll_empty_collection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_heading_empty_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textAlignment="center"
+                android:text="@string/tv_heading_empty_collection"
+                android:textAppearance="?attr/textAppearanceHeadline2"/>
+
+            <TextView
+                android:id="@+id/tv_empty_collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/tv_empty_collection"
+                android:textAppearance="?attr/textAppearanceBody1"/>
+
+        </LinearLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_heading_collection"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_results"
+
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_outer_small"
+        android:layout_marginStart="@dimen/margin_outer_small"
+        android:layout_marginEnd="@dimen/margin_outer_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_heading_collection"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

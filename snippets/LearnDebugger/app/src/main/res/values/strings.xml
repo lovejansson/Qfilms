@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LearnDebugger</string>
+    <string name="et_number_two_hint">Enter number 2</string>
+    <string name="enter_number_one_hint">Enter number 1</string>
+    <string name="rb_add_text">+</string>
+    <string name="rb_multiply_text">*</string>
+    <string name="rb_subtract_text">-</string>
+    <string name="tv_label_et_text">Enter two numbers</string>
+    <string name="rb_divide_text">/</string>
+    <string name="tv_label_rb">Choose operation</string>
+    <string name="fab_descr">calculate answer</string>
+    <string name="fab_text">Calculate</string>
+    <string name="btn_text">Calculate</string>
+    <string name="btn_descr">calculate</string>
+    <string name="et_error_msg">This field cannot be empty</string>
+
+    <string-array name="spinner_operations">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item> Division</item>
+        <item>Multiplication</item>
+    </string-array>
+</resources>

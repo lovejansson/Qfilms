@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shopping list</string>
+    <string name="second_activity">Grocery items</string>
+    <string name="item1">item1</string>
+    <string name="item2">item2</string>
+    <string name="item3">item3</string>
+    <string name="item4">item4</string>
+    <string name="item5">item5</string>
+    <string name="item6">item6</string>
+    <string name="item7">item7</string>
+    <string name="item8">item8</string>
+    <string name="item9">item9</string>
+    <string name="item10">item10</string>
+    <string name="info">Click the grocery item you want to add to your shopping list</string>
+    <string name="button_add">add item</string>
+    <string name="button_rice">Rice</string>
+    <string name="button_pasta">Pasta</string>
+    <string name="button_tomatoes">Tomatoes</string>
+    <string name="button_chocolate">Chocolate</string>
+    <string name="button_sausage">Sausage</string>
+</resources>

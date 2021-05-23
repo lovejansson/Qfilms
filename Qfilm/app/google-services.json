@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "489131851592",
+    "firebase_url": "https://qfilm-4953f.firebaseio.com",
+    "project_id": "qfilm-4953f",
+    "storage_bucket": "qfilm-4953f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489131851592:android:76ef50ccbc45b9f31c7d7d",
+        "android_client_info": {
+          "package_name": "com.example.qfilm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489131851592-n8tjlqf1asa72qa4aiqmrl3ej0gk79di.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qfilm",
+            "certificate_hash": "ca2d0c50cd2e0776d6e97dc70f123a10065fd57e"
+          }
+        },
+        {
+          "client_id": "489131851592-gpar3khn8j1cdhs84r2in4o3ibu25iqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbSuWkHHHKL0RXqHc6C9PBNSbjODFvKk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489131851592-gpar3khn8j1cdhs84r2in4o3ibu25iqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
