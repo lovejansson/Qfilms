@@ -1,10 +1,10 @@
-# TDP028 - Qfilm - Android Movies Application
+# Qfilms - Android Movies Application
 
 Qfilm is an application that displays movies and series in the category "lgbt". The user can browse lists based on genre and search
 for the movie or series they are looking for. Each movie and series has a page with detailed information where the user can read an overview, 
 watch trailer and see images. If the user signs in they can create their own collections and add movies/series to them.
 
-# List of demands 
+# List of demands according to course 
 
 # Technical 
 
